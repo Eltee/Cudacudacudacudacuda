@@ -5,7 +5,11 @@
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
-__global__ void CodeParallele(int n, int m, int np, double td, double h, float matDest) {
+// https://gist.github.com/wh5a/4641641
+
+// https://www.evl.uic.edu/sjames/cs525/final.html
+
+__global__ void CodeParallele(double td, double h, float matDest) {
 
 
 
